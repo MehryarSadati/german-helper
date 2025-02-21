@@ -23,3 +23,16 @@
 
 
 # search_website(url, "hemd")
+import pandas as pd 
+
+data = pd.read_csv("words.txt", header=None, on_bad_lines="skip", names=["Line"])
+word = input("word: ")
+first_word = data["Line"]
+matching_line = data[first_word.str.contains(f"{word} ", na=False, case=False)]["Line"]
+
+# for line in matching_line:
+#     new_line = str(line)
+#     list_of_lines = new_line.split(" ")
+#     print (list_of_lines, "\n")
+
+print(matching_line)
