@@ -1,0 +1,683 @@
+Nr,Artikel,Nomen
+0,der,Ärger
+1,der,Abend
+2,der,Abflug
+3,der,Absender
+4,der,Alkohol
+5,der,Anfang
+6,der,Angestellte
+7,der,Anruf
+8,der,Anrufbeantworter
+9,der,Anschluss
+10,der,Anzug
+11,der,Apfel
+12,der,Appetit
+13,der,April
+14,der,Arbeitsplatz
+15,der,Arm
+16,der,Arzt
+17,der,Aufenthalt
+18,der,Aufzug
+19,der,August
+20,der,Ausflug
+21,der, Ausgang
+22,der, Ausländer
+23,der, Ausweis
+24,der, Automat
+25,der,Bahnhof
+26,der,Bahnsteig
+27,der,Balkon
+28,der,Baum
+29,der, Beamte
+30,der,Bekannte
+31,der,Berg
+32,der,Beruf
+33,der,Besuch
+34,der,Betrag
+35,der,Bildschirm
+36,der, Bleistift
+37,der,Blick
+38,der,Bogen
+39,der,Brief
+40,der, Briefkasten
+41,der,Briefumschlag
+42,der,Bruder
+43,der,Buchstabe
+44,der,Bus
+45,der,Chef
+46,der, Computer
+47,der,Dank
+48,der,Deutsche
+49,der,Dezember
+50,der,Dienstag
+51,der,Doktor
+52,der,Dom
+53,der,Donnerstag
+54,der,Drucker
+55,der,Durst
+56,der, Ehemann
+57,der, Eingang
+58,der,Eintritt
+59,der,Einwohner
+60,der,Empfänger
+61,der, Empfang
+62,der,Enkel
+63,die, Erwachsene
+64,der, Export
+65,der,Führerschein
+66,der, Fahrer
+67,der,Fahrplan
+68,der, Familienname
+69,der,Familienstand
+70,der, Februar
+71,der, Fehler
+72,der,Film
+73,der,Fisch
+74,der,Flughafen
+75,der,Flur
+76,der, Fluss
+77,der, Fotoapparat
+78,der,der Frühling
+79,der,Freitag
+80,der, Freund
+81,der, Friseur
+82,der,uß
+83,der, Fußball
+84,der,Garten
+85,der, Gast
+86,der,Geburtsort
+87,der,Geburtstag
+88,der, Glückwunsch
+89,der,Großvater
+90,der,Gruß
+91,der,Hals
+92,der, Haushalt
+93,der, Hausmann
+94,der, Herbst
+95,der, Herd
+96,der, Herr
+97,der, Hund
+98,der,Hunger
+99,der,Import
+100,der,Inhalt
+101,der, Januar
+102,der, Job
+103,der, Jugendliche
+104,der, Juli
+105,der, Junge
+106,der, Juni
+107,der, Käse
+108,der, Körper
+109,der, Kühlschrank
+110,der, Kaffee
+111,der, Kalender
+112,der, Kassettenrecorder
+113,der, Keller
+114,der,Kellner
+115,der, Kindergarten
+116,der, Kinderwagen
+117,der, Kiosk
+118,der, Koffer
+119,der, Kollege
+120,der, Kontakt
+121,der, Kopf
+122,der, Kredit
+123,der,Kreis
+124,der, Kuchen
+125,der, Kugelschreiber
+126,der,Kunde
+127,der,Kurs
+128,der, Löffel
+129,der, Laden
+130,der, Lehrer
+131,der, LKW
+132,der, Loch
+133,der, Lohn
+134,der, März
+135,der, Müll
+136,der,Magen
+137,der,Mai
+138,der,Mann
+139,der,Mantel
+140,der,Markt
+141,der,Mechaniker
+142,der, Mensch
+143,der, Messer
+144,der, Mittag
+145,der, Mittwoch
+146,der, Moment
+147,der, Monat
+148,der, Montag
+149,der, Morgen
+150,der, Motor
+151,der, Mund
+152,der, Nachbar
+153,der, Nachmittag
+154,der, Name
+155,der, Nebel
+156,der, Norden
+157,der, Notarzt
+158,der, Notfall
+159,der, November
+160,der, Ober
+161,der, Oktober
+162,der,Opa
+163,der,Ort
+164,der,Osten
+165,der,Park
+166,der,Partner
+167,der,Pass
+168,der,Pkw
+169,der,Plan
+170,der,Platz
+171,der,Preis
+172,der,Prospekt
+173,der,Pullover
+174,der,Rücken
+175,der,Rabatt
+176,der,Raucher
+177,der,Raum
+178,der,Regen
+179,der,Reifen
+180,der,Reis
+181,der,Reiseführer
+182,der,Rock
+183,der,Rundgang
+184,der,Süden
+185,der,Saft
+186,der,Salat
+187,der,Satz
+188,der,Schüler
+189,der,Schalter
+190,der,Schild
+191,der,Schinken
+192,der,Schirm
+193,der,Schlüssel
+194,der,Schluss
+195,der,Schnee
+196,der,Schnupfen
+197,der,Schrank
+198,der,Schuh
+199,der,See
+200,der,September
+201,der,Service
+202,der,Sessel
+203,der,Sohn
+204,der,Sommer
+205,der,Sonntag
+206,der,Spaß
+207,der,Spaziergang
+208,der,Spielplatz
+209,der,Stempel
+210,der,Stock
+211,der,Stoff
+212,der, Strand
+213,der, Strom
+214,der,Student
+215,der,Stuhl
+216,der,Supermarkt
+217,der,Tag
+218,der,Teil
+219,der,Teller
+220,der,Teppich
+221,der,Termin
+222,der,Test
+223,der,Text
+224,der,Tipp
+225,der,Tisch
+226,der,Topf
+227,der,Tourist
+228,der,Turm
+229,der,Tyr
+230,der,Unfall
+231,der,Unterricht
+232,der,Unterschied
+233,der,Urlaub
+234,der,Vater
+235,der,Verein
+236,der,Verkäufer
+237,der,Verkehr
+238,der,Vermieter
+239,der,Vertrag
+240,der,Vogel
+241,der,Vormittag
+242,der,Vorname
+243,der,Wagen
+244,der,Wald
+245,der,Weg
+246,der,Wein
+247,der,Westen
+248,der,Wetter
+249,der,Wind
+250,der,Winter
+251,der,Wochentag
+252,der,Wunsch
+253,der,Zahn
+254,der,Zettel
+255,der,Zoll
+256,der,Zucker
+257,der,Zug
+258,die,Ärztin
+259,die,Übernachtung
+260,die,Abfahrt
+261,die,Adresse
+262,die,Ampel
+263,die,Angestellte
+264,die,Angst
+265,die,Ankunft
+266,die,Anmeldung
+267,die,Anrede
+268,die,Ansage
+269,die,Antwort
+270,die,Anzeige
+271,die,Apotheke
+272,die,Arbeit
+273,die,Aufgabe
+274,die,Auge
+275,die,Ausbildung
+276,die,Auskunft
+277,die,Ausländerin
+278,die,Aussage
+279,die,Ausstellung
+280,die,Autobahn
+281,die,Bäckerei
+282,die,Bahn
+283,die,Banane
+284,die,Bank
+285,die,Batterie
+286,der,Beamte
+287,die,Beamtin
+288,die,Bekannte
+289,die,Beratung
+290,die,Berufsschule
+291,die,Bewerbung
+292,die,Birne
+293,die,Bitte
+294,die,Blume
+295,die,Bluse
+296,die,Bohne
+297,die,Brücke
+298,die,Briefmarke
+299,die,Brieftasche
+300,die,Brille
+301,die,Butter
+302,die,CD
+303,die,CD-ROM
+304,die,Creme
+305,die,Dame
+306,die,Dauer
+307,die,Deutsche
+308,die,Disco
+309,die,Durchsage
+310,die,Dusche
+311,die,E-Mail
+312,die,Ecke
+313,die,Ehefrau
+314,die,Einführung
+315,die,Einladung
+316,die,Eltern
+317,die,Entschuldigung
+318,die,Erfahrung
+319,die,Erlaubnis
+320,die,Ermäßigung
+321,die,Erwachsene
+322,die,Fähre
+323,die,Führung
+324,die,Fabrik
+325,die,Fahrkarte
+326,die,Familie
+327,die,Farbe
+328,die,Ferien
+329,die,Feuerwehr
+330,die,Firma
+331,die,Flasche
+332,die,Flur
+333,die,Frage
+334,die,Frau
+335,die,Freizeit
+336,die,Freundin
+337,die,Frist
+338,die,Gabel
+339,die,Garage
+340,die,Gebühr
+341,die,Geldbörse
+342,die,Gesamtschule
+343,die,Geschwister
+344,die,Gesundheit
+345,die,Größe
+346,die,Grippe
+347,die,Großeltern
+348,die,Großmutter
+349,die,Grundschule
+350,die,Gruppe
+351,die,Halbpension
+352,die,Halle
+353,die,Haltestelle
+354,die,Hand
+355,die,Hausaufgabe
+356,die,Hausfrau
+357,die,Heimat
+358,die,Heizung
+359,die,Hilfe
+360,die,Hose
+361,die,Idee
+362,die,Industrie
+363,die,Information
+364,die,Jacke
+365,die,Jugendherberge
+366,die,Jugendliche
+367,die,Küche
+368,die,Kündigung
+369,die,Kamera
+370,die,Kanne
+371,die,Karte
+372,die,Kartoffel
+373,die,Kasse
+374,die,Kassette
+375,die,Katze
+376,die,Kenntnisse
+377,die,Kette
+378,die,Kirche
+379,die,Klasse
+380,die,Kleidung
+381,die,Kneipe
+382,die,Kollegin
+383,die,Kontrolle
+384,die,Kosmetik
+385,die,Krankenkasse
+386,die,Krankheit
+387,die,Kreditkarte
+388,die,Kreuzung
+389,die,Kunde
+390,die,Kundin
+391,die,Lösung
+392,die,Lampe
+393,die,Landschaft
+394,die,Lebensmittel
+395,die,Lehre
+396,die,Lehrerin
+397,die,Leute
+398,der,Lohn
+399,die,Luft
+400,die,Lust
+401,die,Möbel
+402,die,Mülltonne
+403,die,Maschine
+404,die,Mehrwertsteuer
+405,die,Meinung
+406,die,Menge
+407,die,Miete
+408,die,Milch
+409,die,Minute
+410,die,Mitte
+411,die,Mitteilung
+412,die,Mittelschule
+413,die,Mode
+414,die,Musik
+415,die,Mutter
+416,die,Nähe
+417,die,Nachbarin
+418,die,Nacht
+419,die,Natur
+420,die,Note
+421,die,Notiz
+422,die,Nudel
+423,die,Nummer
+424,die,Oma
+425,die,Operation
+426,die,Orange
+427,die,Ordnung
+428,die,Panne
+429,die,Partei
+430,die,Partnerin
+431,die,Party
+432,die,Pause
+433,die,Pension
+434,die,Plastik
+435,die,Polizei
+436,die,Portion
+437,die,Post
+438,die,Postleitzahl
+439,die,Prüfung
+440,die,Praxis
+441,die,Qualität
+442,die,Quittung
+443,die,Raucherin
+444,die,Realschule
+445,die,Rechnung
+446,die,Reinigung
+447,die,Reise
+448,die,Reparatur
+449,die,Rezeption
+450,die,Rose
+451,die,S-Bahn
+452,die,Sache
+453,die,Schülerin
+454,die,Scheckkarte
+455,die,Schokolade
+456,die,Schule
+457,die,Schwester
+458,die,See
+459,die,Sehenswürdigkeit
+460,die,Seife
+461,die,Sekretärin
+462,die,Sekunde
+463,die,Sendung
+464,die,Sonne
+465,die,Sorge
+466,die,Spülmaschine
+467,die,Speisekarte
+468,die,Sprache
+469,die,Sprachschule
+470,die,Sprechstunde
+471,die,Stadt
+472,die,Steuer
+473,die,Straße
+474,die, Straßenbahn
+475,die, Studentin
+476,die,Stunde
+477,die,Suppe
+478,die,Tür
+479,die,Tüte
+480,die,Tankstelle
+481,die,Tasche
+482,die,Tasse
+483,die,Tochter
+484,die,Toilette
+485,die,Tomate
+486,die,Treppe
+487,die,U-Bahn
+488,die,Uhr
+489,die,Universität
+490,die,Unterhaltung
+491,die,Unterkunft
+492,die,Unterschrift
+493,die, Untersuchung
+494,die,Verbindung
+495,die,Verkäuferin
+496,die,Versicherung
+497,die,Verspätung
+498,die,Volksschule
+499,die,Vorsicht
+500,die,Vorwahl
+501,die,Wäsche
+502,die,Welt
+503,die,Werkstatt
+504,die,Wirtschaft
+505,die,Woche
+506,die,Wohnung
+507,die,Wolke
+508,die,Wurst
+509,die,Zahl
+510,die,Zeit
+511,die,Zeitschrift
+512,die,Zeitung
+513,die,Zigarette
+514,die,Zitrone
+515,das,Alter
+516,das,Angebot
+517,das,Appartement
+518,das,Auge
+519,das,Ausland
+520,das,Auto
+521,das,Büro
+522,das,Baby
+523,das,Bad
+524,das,Bein
+525,das,Beispiel
+526,das,Benzin
+527,das,Bett
+528,das,Bier
+529,das,Bild
+530,das,Blatt
+531,das,Blut
+532,das,Brötchen
+533,das,Brot
+534,das,Buch
+535,das,Cafe
+536,das,Dach
+537,das,Datum
+538,das,Ding
+539,das,Doppelzimmer
+540,das,Dorf
+541,das,Ei
+542,das,Einzelzimmer
+543,das,Eis
+544,das,Ende
+545,das,Erdgeschoss
+546,das,Ergebnis
+547,das,Essen
+548,das,Fahrrad
+549,das,Fax
+550,das,Fenster
+551,das,Fernsehgerät
+552,das,Fest
+553,das,Feuer
+554,das,Feuerzeug
+555,das,Fieber
+556,das,Fleisch
+557,das,Flugzeug
+558,das,Formular
+559,das,Foto
+560,das,Frühjahr
+561,das,Frühstück
+562,das,Fundbüro
+563,das,Gas
+564,das,Geburtsjahr
+565,das,Gegenteil
+566,das,Geld
+567,das,Gemüse
+568,das,Gepäck
+569,das,Gericht
+570,das,Geschäft
+571,das,Geschenk
+572,das,Geschirr
+573,das,Gesicht
+574,das,Gespräch
+575,das,Getränk
+576,das,Gewicht
+577,das,Gewitter
+578,das,Glück
+579,das,Glas
+580,das,Gleis
+581,das,Guthaben
+582,das,Gymnasium
+583,das,Hähnchen
+584,das,Haar
+585,das,Handtuch
+586,das,Handy
+587,das,Haus
+588,das,Hemd
+589,das,Herz
+590,das,Hobby
+591,das,Holz
+592,das,Internet
+593,das,Jahr
+594,das,Junge
+595,das,Kennzeichen
+596,das,Kfz
+597,das,Kind
+598,das,Kino
+599,das,Kleid
+600,das,Konsulat
+601,das,Konto
+602,das,Konzert
+603,das,Laden
+604,das,Lager
+605,das,Land
+606,das,Leben
+607,das,Lebensmittel
+608,das,Leid
+609,das,Licht
+610,das,Lied
+611,das,Loch
+612,das,Lokal
+613,das,Mädchen
+614,das,Möbel
+615,das,Mal
+616,das,Material
+617,das,Medikament
+618,das,Meer
+619,das,Messer
+620,das,Metall
+621,das,Mittel
+622,das,Moment
+623,das,Morgen
+624,das,Museum
+625,das,Obst
+626,das,Orange
+627,das,Öl
+628,das,Päckchen
+629,das,Paket
+630,das,Papier
+631,das,Parfüm
+632,das,Plastik
+633,das,Praktikum
+634,das,Problem
+635,das,Programm
+636,das,Rücken
+637,das,Radio
+638,das,Rathaus
+639,das,Reifen
+640,das,Reis
+641,das,Reisebüro
+642,das,Restaurant
+643,das,Rezept
+644,das,Rind
+645,das,Rosé
+646,das,Salz
+647,das,Schiff
+648,das,Schild
+649,das,Schloss
+650,das,Schwein
+651,das,Schwimmbad
+652,das, Service
+653,das, Sofa
+654,das, Sonderangebot
+655,das,Stück
+656,das,Standesamt
+657,das,Steuer
+658,das,Streichholz
+659,das,Studium
+660,das,Tag
+661,das,Taxi
+662,das,Teil
+663,das,Telefon
+664,das,Telefonbuch
+665,das,Theater
+666,das,Thema
+667,das,Ticket
+668,das,Tier
+669,das,Trinkgeld
+670,das,Video
+671,das,Wasser
+672,das,Werkzeug
+673,das,Wetter
+674,das,Wiederhören
+675,das, Wiedersehen
+676,das,Wochenende
+677,das,Wort
+678,das,Zentrum
+679,das,Zeugnis
+680,das,Zimmer
+681,das,Auge
