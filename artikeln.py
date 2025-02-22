@@ -19,42 +19,44 @@ def add_word(file_path, new_row):
         writer.writerow(new_row)
 
 def add_input():
-    input(f"What's the artikel for the word \"{program_input}\"?")
+    add_input =input(f"What's the artikel for the word \"{program_input}\"?")
+    return add_input
 
 def exit(input):
     if input.lower() == "exit":
         return True
     
-running = True
+def question():
+    question = input(f"the word \"{program_input}\" isn't in our dataset, if you know what the nominativ artikel for this word is you can add it (Y/N)")
+    return question
+# running = True
 
-while running:
-    program_input = input("What is the word you're looking for?\n>")
+# while running:
+program_input = input("What is the word you're looking for?\n>")
+
+if exit(program_input):
+    running = False
+
+matches = data[data["Line"].str.contains(rf"\b{program_input}\b", na=False, case=False)]["Line"]
+if matches.empty:
+    question()
     
-        
-    matches = data[data["Line"].str.contains(rf"\b{program_input}\b", na=False, case=False)]["Line"]
-    if matches.empty:
-        question = input(f"the word \"{program_input}\" isn't in our dataset, if you know what the nominativ artikel for this word is you can add it (Y/N)")
-        
-        if question.lower() == "y":
-            add_input()
-        elif question.lower() == "n":
-            continue
-        else:
-            print("Wrong input")
-            add_input()
+    if question().lower() == "y":
+        add_input()
+    elif question().lower() == "n":
+        pass
     else:
-        matching_line = str(matches)
-        artikel = matching_line.split()[1]
-        print(artikel_dict[artikel])
-        #this is so that I wouldn't forget to fix this problem.
-    
-        if artikel == "die":
-            print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
+        print("Wrong input")
+        question()
+else:
+    matching_line = str(matches)
+    artikel = matching_line.split()[1]
+    print(artikel_dict[artikel])
+    #this is so that I wouldn't forget to fix this problem.
 
-    if exit(program_input):
-        running = False
-    if exit(add_input()):
-        running = False
+    if artikel == "die":
+        print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
+
 
 
 # last_number = df.iloc[-1, 0] 
