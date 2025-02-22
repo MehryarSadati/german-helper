@@ -13,5 +13,7 @@ artikel_dict= {
 }
 
 print(artikel_dict[artikel])
+
+#this is so that I wouldn't forget to fix this problem.
 if artikel == "die":
     print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
