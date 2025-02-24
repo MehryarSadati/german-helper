@@ -26,34 +26,48 @@ def exit(input):
     if input.lower() == "exit":
         return True
     
-def question():
-    question = input(f"the word \"{program_input}\" isn't in our dataset, if you know what the nominativ artikel for this word is you can add it (Y/N)")
-    return question
+def question(input, new_word):
+    last_number = df.iloc[-1, 0] 
+
+    if input.lower() == "y":
+        artkl = input("What is the artikel of this word?")
+        new_row = [last_number + 1, artkl, new_word]
+        add_word(file_path, new_row)
+    elif input.lower() == "n":
+        pass
+    else:
+        return "Wrong input, start over."
+
 # running = True
 
 # while running:
 program_input = input("What is the word you're looking for?\n>")
 
-if exit(program_input):
-    running = False
+# if exit(program_input):
+#     running = False
 
 matches = data[data["Line"].str.contains(rf"\b{program_input}\b", na=False, case=False)]["Line"]
 if matches.empty:
-    question()
+    ask = input("If you know the artikel of this word you can add it to the dataset; would you like to? (y/n)")
     
-    if question().lower() == "y":
-        add_input()
-    elif question().lower() == "n":
+    # print (question(ask, program_input))
+    if ask.lower() == "y":
+        last_number = df.iloc[-1, 0] 
+        artkl = input("What is the artikel of this word?")
+        new_row = [last_number + 1, artkl, program_input.title()]
+        add_word(file_path, new_row)
+    elif ask.lower() == "n":
         pass
     else:
         print("Wrong input")
-        question()
+        # question()
+    
 else:
     matching_line = str(matches)
     artikel = matching_line.split()[1]
     print(artikel_dict[artikel])
-    #this is so that I wouldn't forget to fix this problem.
 
+    #this is so that I wouldn't forget to fix this problem.
     if artikel == "die":
         print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
 
