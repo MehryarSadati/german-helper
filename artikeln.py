@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 
-print(">>>In case you wanna exit the program type \"exit\"\n")
+print(">>>In case you wanna exit the program type \"exit\".")
 
 file_path = "artikeln.csv"
 df = pd.read_csv(file_path)
@@ -23,31 +23,40 @@ def exit(input):
         return True
     else:
         return False
-    
+
+line_starter = "\n>"   
 running = True
 
 while running:
-    program_input = input(">>>What is the word you're looking for?\n>")
+    program_input = input(f">>>What is the word you're looking for?{line_starter}")
 
     if exit(program_input):
         break
 
     matches = data[data["Line"].str.contains(rf"\b{program_input}\b", na=False, case=False)]["Line"]
     if matches.empty:
-        ask = input(">>>If you know the artikel of this word you can add it to the dataset; would you like to?(y/n)")
+        ask = input(f">>>If you know the artikel of this word you can add it to the dataset.\nwould you like to?(y/n){line_starter}")
         if exit(ask):
             break
 
         if ask.lower() == "y":
             last_number = df.iloc[-1, 0] 
-            artkl = input(f"What is the artikel of the word {program_input}?")
+            artkl = input(f">>>What is the artikel of the word {program_input}?{line_starter}")
+            while artkl not in artikel_dict:
+                print("!!!THIS IS NOT AN ARTIKEL!!!")
+                retry = input(f">>>Try again{line_starter}")
+
+                if exit(retry):
+                    break
+
+                artkl = retry
             new_row = [last_number + 1, artkl, program_input.title()]
             add_word(file_path, new_row)
+            print (">>>Your word was added to the dataset!")
         elif ask.lower() == "n":
             pass
         else:
-            print("Wrong input")
-            # question()
+            print("!!!WRONG INPUT!!!")
         
     else:
         matching_line = str(matches)
@@ -58,4 +67,4 @@ while running:
         if artikel == "die":
             print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
 
-    print("\n\n")
+    print("PROGRAM STARTOVER\n")
