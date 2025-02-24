@@ -76,9 +76,9 @@ You can directly edit the artikeln.csv file to add more nouns or modify existing
 - Each line should contain the article and noun, separated by a comma
 - Format: `article,noun` (e.g., `der,Mann`, `die,Frau`, `das,Kind`)
 
-## Requirements
+<!-- ## Requirements
 
-- Python 3.x
+- Python 3.x -->
 
 ## Contributing
 
@@ -86,14 +86,3 @@ Feel free to contribute by:
 - Adding more words to the artikeln.csv file
 - Improving the artikeln.py script
 - Suggesting new features related to article lookup and storage
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-Mehryar Sadati - [@MehryarSadati](https://github.com/MehryarSadati)
-
-Project Link: [https://github.com/MehryarSadati/german-helper](https://github.com/MehryarSadati/german-helper)
-
