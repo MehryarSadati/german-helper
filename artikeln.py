@@ -1,5 +1,6 @@
 import pandas as pd
 import csv
+from prettytable import PrettyTable
 
 print('>>>In case you wanna exit the program type "exit".')
 
@@ -8,10 +9,13 @@ df = pd.read_csv(file_path)
 data = pd.read_csv(file_path, names=["Line"])
 
 artikel_dict = {
-    "der": "NOM: der\nAKK: den\nDAT: dem",
-    "die": "NOM: die\nAKK: die\nDAT: der/den",
-    "das": "NOM: das\nAKK: das\nDAT: dem",
+    "der": ["der", "den", "dem"],
+    "die": ["die", "die", "der/den"],
+    "das": ["das", "das", "dem"],
 }
+
+table = PrettyTable()
+table.field_names = ["NOM", "AKK", "DAT"]
 
 
 def add_word(file_path, new_row):
@@ -31,7 +35,7 @@ line_starter = "\n>"
 running = True
 
 while running:
-    program_input = input(f">>>What is the word you're looking for?{line_starter}")
+    program_input = input(f">>>Enter a german noun:{line_starter}")
 
     if exit(program_input):
         break
@@ -70,7 +74,9 @@ while running:
     else:
         matching_line = str(matches)
         artikel = matching_line.split()[1]
-        print(artikel_dict[artikel])
+        ans = artikel_dict[artikel]
+        table.add_row(ans)
+        print(table)
 
         # this is so that I wouldn't forget to fix this problem.
         if artikel == "die":
@@ -78,4 +84,4 @@ while running:
                 "this part needs to be upgrated and currently the plurals and femenines aren't seperated."
             )
 
-    print("PROGRAM STARTOVER\n")
+    print("\nPROGRAM STARTOVER\n")
