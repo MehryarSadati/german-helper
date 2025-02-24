@@ -18,26 +18,10 @@ def add_word(file_path, new_row):
         writer = csv.writer(file)
         writer.writerow(new_row)
 
-def add_input():
-    add_input =input(f"What's the artikel for the word \"{program_input}\"?")
-    return add_input
-
 def exit(input):
     if input.lower() == "exit":
         return True
     
-def question(input, new_word):
-    last_number = df.iloc[-1, 0] 
-
-    if input.lower() == "y":
-        artkl = input("What is the artikel of this word?")
-        new_row = [last_number + 1, artkl, new_word]
-        add_word(file_path, new_row)
-    elif input.lower() == "n":
-        pass
-    else:
-        return "Wrong input, start over."
-
 # running = True
 
 # while running:
@@ -50,10 +34,9 @@ matches = data[data["Line"].str.contains(rf"\b{program_input}\b", na=False, case
 if matches.empty:
     ask = input("If you know the artikel of this word you can add it to the dataset; would you like to? (y/n)")
     
-    # print (question(ask, program_input))
     if ask.lower() == "y":
         last_number = df.iloc[-1, 0] 
-        artkl = input("What is the artikel of this word?")
+        artkl = input(f"What is the artikel of the word {program_input}?")
         new_row = [last_number + 1, artkl, program_input.title()]
         add_word(file_path, new_row)
     elif ask.lower() == "n":
@@ -70,9 +53,3 @@ else:
     #this is so that I wouldn't forget to fix this problem.
     if artikel == "die":
         print("this part needs to be upgrated and currently the plurals and femenines aren't seperated.")
-
-
-
-# last_number = df.iloc[-1, 0] 
-# new_row = [last_number + 1, "das", "Sakko"]
-# add_word(file_path, new_row)
