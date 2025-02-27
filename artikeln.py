@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 from prettytable import PrettyTable
+import readline
 
 print('>>>In case you wanna exit the program type "exit".')
 
@@ -33,8 +34,10 @@ def exit(input):
 
 line_starter = "\n>"
 running = True
+readline.read_init_file()
 
 while running:
+    
     program_input = input(f">>>Enter a german noun:{line_starter}")
 
     if exit(program_input):
